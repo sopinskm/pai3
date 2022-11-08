@@ -1,0 +1,12 @@
+<h1>Liczby</h1>
+
+<ul>
+<?=$x=1;?>    
+<?php foreach ($tablica_liczb as $nr => $liczba): // dostęp do zmiennej widoku bezpośrednio ?>
+<li>
+<?=$x++;?>:
+<strong><?=$liczba ?></strong>
+
+</li>
+<?php endforeach; ?>
+</ul>

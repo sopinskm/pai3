@@ -1,0 +1,10 @@
+<h1>Miesiące</h1>
+
+
+<ul>
+<?php foreach ($this -> tablica_miesiecy as $nazwa => $kolor): // dostęp do zmiennej widoku bezpośrednio ?>
+<li>
+<strong style="color:<?=$kolor?>;"><?=$nazwa ?></strong>
+</li>
+<?php endforeach; ?>
+</ul>
